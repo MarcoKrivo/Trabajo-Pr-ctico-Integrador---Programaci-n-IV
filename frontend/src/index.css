@@ -1,0 +1,171 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, system-ui, Arial, sans-serif;
+  color: #202124;
+  background: #f6f7f9;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.contenedor {
+  max-width: 1180px;
+  margin: auto;
+  padding: 24px;
+}
+
+.tarjeta {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0 2px 8px #11111108;
+}
+
+.boton {
+  background: #202124;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+
+.boton-secundario {
+  background: #eceff3;
+  color: #202124;
+  border: 0;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+
+.campo {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  margin: 5px 0 12px;
+}
+
+.barra {
+  background: #17191d;
+  color: white;
+}
+
+.barra a {
+  color: white;
+  text-decoration: none;
+  margin-right: 16px;
+}
+
+.rejilla {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+a {
+  color: inherit;
+}
+
+.error {
+  color: #b42318;
+}
+
+.muted {
+  color: #667085;
+}
+
+/* Identidad visual y controles del carrito */
+
+.marca {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: -.02em;
+}
+
+.marca-icono {
+  width: 36px;
+  height: 36px;
+  display: block;
+}
+
+.barra nav {
+  align-items: center;
+}
+
+.control-cantidad {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px;
+  border: 1px solid #d1d5db;
+  border-radius: 999px;
+  background: #fff;
+}
+
+.cantidad-boton {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border: 0;
+  border-radius: 50%;
+  background: #eceff3;
+  color: #202124;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.cantidad-boton:hover:not(:disabled) {
+  background: #dfe3e8;
+}
+
+.cantidad-boton:disabled {
+  opacity: .4;
+  cursor: not-allowed;
+}
+
+.cantidad-valor {
+  min-width: 20px;
+  text-align: center;
+  font-weight: 700;
+}
