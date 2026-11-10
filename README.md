@@ -165,9 +165,9 @@ El archivo ZIP de entrega no debe incluir:
 
 También se debe incluir el video de demostración de entre 10 y 15 minutos solicitado en la consigna.
 
-**Repositorio GitHub:** [Agregar URL del repositorio]
+**Repositorio GitHub:** https://github.com/MarcoKrivo/Trabajo-Pr-ctico-Integrador---Programaci-n-IV.git
 
-**Video de demostración:** [Agregar URL del video]
+**Video de demostración:** https://drive.google.com/file/d/1GA-wpymFNV5epBT5WyivyukNW3kbstmm/view?usp=sharing
 
 ## Alcance del proyecto
 
